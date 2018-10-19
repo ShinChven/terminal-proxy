@@ -2,16 +2,27 @@
   "name": "termproxy",
   "version": "0.0.1",
   "description": "A terminal tool to run commands behind proxy in terminal.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ShinChven/terminal-proxy.git"
+  },
   "bin": {
     "termproxy": "src/app.js",
     "termproxy-set": "src/set.js",
     "termproxy-show": "src/show.js",
     "termproxy-help": "src/help.js"
   },
-  "keywords": [],
-  "author": "ShinChven",
+  "keywords": ["proxy","commandline tool"],
+  "author": {
+    "name": "ShinChven Zhang",
+    "email": "shinchven@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ShinChven/terminal-proxy/issues"
+  },
+  "homepage": "https://github.com/ShinChven/terminal-proxy",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^7.0.0"
