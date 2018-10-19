@@ -1,5 +1,5 @@
 {
-  "name": "termproxy",
+  "name": "terminal-proxy",
   "version": "0.0.1",
   "description": "A terminal tool to run commands behind proxy in terminal.",
   "main": "app.js",
@@ -14,7 +14,10 @@
     "termproxy-show": "src/show.js",
     "termproxy-help": "src/help.js"
   },
-  "keywords": ["proxy","commandline tool"],
+  "keywords": [
+    "proxy",
+    "commandline tool"
+  ],
   "author": {
     "name": "ShinChven Zhang",
     "email": "shinchven@gmail.com"
