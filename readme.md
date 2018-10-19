@@ -2,6 +2,12 @@
 
 A terminal tool to run commands behind proxy in terminal.
 
+## use it like
+
+```bash
+termproxy curl www.google.coms
+```
+
 ## install
 
 ```bash
