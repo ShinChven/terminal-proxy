@@ -8,6 +8,12 @@ A terminal tool to run commands behind proxy in terminal.
 npm install -g terminal-proxy
 ```
 
+## install from source
+
+```bash
+npm link
+```
+
 ## set proxy before using it
 
 ```bash
