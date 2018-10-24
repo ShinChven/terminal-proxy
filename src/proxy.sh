@@ -1,4 +1,4 @@
 #!/bin/bash
-proxy=`cat proxy`
+proxy=`cat ~/.termproxy`
 export all_proxy=$proxy
 $*
