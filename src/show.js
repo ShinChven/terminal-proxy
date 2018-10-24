@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs-extra');
-fs.readFile('./proxy', 'utf-8').then(data => {
+const homedir = require('os').homedir();
+fs.readFile(homedir+'/.termproxy', 'utf-8').then(data => {
     if (data.length > 0) {
         console.log('proxy: ' + data);
     }else{

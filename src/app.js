@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 const fs = require('fs-extra');
-
+const homedir = require('os').homedir();
 // load proxy
-fs.readFile('./proxy', 'utf-8').then(data => {
+fs.readFile(homedir+'/.termproxy', 'utf-8').then(data => {
     console.log('Using proxy: ' + data);
     if (data.length > 0) {
         let argv = process.argv;
