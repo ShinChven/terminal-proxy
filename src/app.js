@@ -15,7 +15,7 @@ fs.readFile(homedir+'/.termproxy', 'utf-8').then(data => {
             const platformName = process.platform;
             let scriptAccordingToPlatform = null;
             if (platformName === 'darwin' || platformName === 'linux') { // use bash if running on macOS or Linux
-                scriptAccordingToPlatform = "bash ./src/proxy.sh";
+                scriptAccordingToPlatform = "bash "+__dirname+"/proxy.sh";
             } else if (platformName === 'win32') { // use Batch script if running on Windows
                 scriptAccordingToPlatform = __dirname+'/proxy.bat';
             } else { // end it if unsupported platform found.
