@@ -1,49 +1,49 @@
 # terminal-proxy
 
-A terminal tool to run commands behind proxy in terminal. Can be used in bash and CMD.
+一个在命令行中便捷使用Proxy的cli工具。支持bash和cmd。
 
-## use it like
+## 简单的用法
 
 ```bash
 termproxy curl www.google.com
 ```
 
-## install
+## 安装
 
 ```bash
 npm install -g terminal-proxy
 ```
 
-## install from source
+## 使用源码安装
 
 ```bash
 npm link
 ```
 
-## set proxy before using it
+## 在使用之前你需要配置你的Proxy地址
 
 ```bash
 termproxy-set <YOUR_PROXY_URL>
 ```
 
-## usage
+## 用法
 
 ```bash
 termproxy <YOUR_COMMANDS>
 ```
 
-## show proxy
+## 显示当前Proxy的配置
 
 ```bash
 termproxy-show
 ```
 
-## unset proxy
+## 清楚配置
 
 ```bash
 termproxy-set
 ```
 
-## config file path
+## 配置文件地址
 
 > ~/.termproxy
