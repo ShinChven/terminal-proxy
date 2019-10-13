@@ -28,6 +28,6 @@
   "homepage": "https://github.com/ShinChven/terminal-proxy",
   "license": "ISC",
   "dependencies": {
-    "fs-extra": "^7.0.0"
+    "fs-extra": "^8.1.0"
   }
 }
